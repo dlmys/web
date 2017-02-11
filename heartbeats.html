@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>heartbeats-By哆啦没有手</title>
+		<style type="text/css">
+			html{
+				overflow:hidden;
+			}
+
+			#message{
+				width:320px;
+				margin:60px auto 0;
+				text-align:center;
+				font:30px "微软雅黑";
+				text-shadow:3px 3px 4px #808080;
+			}
+			
+			#message>span{
+				color:#f00;
+			}
+	
+			#heart{
+				position:relative;
+				width:320px;
+				height:272px;
+				margin:200px auto;
+				animation:heartBeats 1s ease-in-out infinite;
+			}
+			
+			@-webkit-keyframes heartBeats{
+				0%{transform:scale(1);}
+				50%{transform:scale(1.2);}
+				100%{transform:scale(1);}
+			}
+			
+			
+			div.heart-left{
+				width:200px;
+				height:270px;
+				border:1px solid red;
+				border-radius:260px 530px 0px 800px;
+				background-color:red;
+			}
+			
+			div.heart-right{
+				width:200px;
+				height:270px;
+				border:1px solid red;
+				border-radius:530px 260px 800px 0px;
+				background-color:red;
+				position:absolute;
+				right:0px;
+				top:0;
+			}
+			
+			#heart::before{
+				content:"";
+				border:9px solid transparent;
+				border-left-color:#fff;
+				border-bottom-color:#fff;
+				
+				position:absolute;
+				top:254px;
+				left:145px;
+				z-index:999;
+				
+				transform:scaleX(4);
+			}
+			
+			#heart::after{
+				content:"";
+				border:9px solid transparent;
+				border-right-color:#fff;
+				border-bottom-color:#fff;
+				
+				position:absolute;
+				top:254px;
+				left:157px;
+				z-index:999;
+				
+				transform:scaleX(4);
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="message">等待 <span>30</span> 秒领取红包！</div>
+		<div id="heart">
+			<div class="heart-left"></div>
+			<div class="heart-right"></div>
+		</div>
+		
+		<script type="text/javascript">
+			window.onload = function(){
+				//获取倒计时数字容器span
+				var span = document.querySelector("#message>span");
+				
+				//创建定时器
+				var i = 30;
+				var timeId = setInterval(function(){
+					
+					if ( i <= 1 ) {
+						message.innerHTML = "别做梦了，没人给你发红包，洗洗睡吧哈哈哈哈！"
+						clearInterval(timeId);
+						return;
+					}
+					
+					i--;
+					span.innerText = i;
+					
+				},1000);
+				
+				
+				
+			}
+		
+		</script>
+	</body>
+</html>
