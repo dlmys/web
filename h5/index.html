@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <title>腾讯房产七剑出山</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <style>
+    	/*main1*/
+    	.m1_1{position:absolute;z-index:4;width:100%;left:0;opacity:0;}
+    	.m1_1s{animation-name: m1_1s;-webkit-animation-name: m1_1s;animation-fill-mode: forwards;-webkit-animation-fill-mode: forwards;}
+    	@keyframes m1_1s{0%{top:50%;opacity:0;}100%{top:20%;opacity:1;}}
+    	@-webkit-keyframes m1_1s{0%{top:50%;opacity:0;}100%{top:20%;opacity:1;}}
+
+    	.m1_2{position:absolute;z-index:4;width:30%;left:35%;opacity:0;}
+    	.m1_2s{animation-name: m1_2s;-webkit-animation-name: m1_2s;animation-fill-mode: forwards;-webkit-animation-fill-mode: forwards;}
+    	@keyframes m1_2s{0%{top:-50%;opacity:0;}100%{top:3%;opacity:1;}}
+    	@-webkit-keyframes m1_2s{0%{top:-50%;opacity:0;}100%{top:3%;opacity:1;}}
+
+    	.m1_3{position:absolute;z-index:4;width:100%;opacity:0;}
+    	.m1_3s{animation-name: m1_3s;-webkit-animation-name: m1_3s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-direction:alternate;-webkit-animation-direction:alternate;}
+    	@keyframes m1_3s{0%{bottom:-5%;left:0;opacity:0.8;}100%{bottom:-2%;left:2%;opacity:1;}}
+    	@-webkit-keyframes m1_3s{0%{bottom:-5%;left:0;opacity:0.8;}100%{bottom:-2%;left:2%;opacity:1;}}
+
+    	/*main2*/
+    	.m2_1{position:absolute;z-index:4;width:100%;top:26%;opacity:0;}
+    	.m2_1s{animation-name: m2_1s;-webkit-animation-name: m2_1s;animation-fill-mode: forwards;-webkit-animation-fill-mode: forwards;}
+    	@keyframes m2_1s{0%{left:50%;opacity:0;}100%{left:0%;opacity:1;}}
+    	@-webkit-keyframes m2_1s{0%{left:50%;opacity:0;}100%{left:0%;opacity:1;}}
+
+    	.m2_2{position:absolute;z-index:4;width:100%;opacity:0;}
+    	.m2_2s{animation-name: m1_3s;-webkit-animation-name: m1_3s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-direction:alternate;-webkit-animation-direction:alternate;}
+    	@keyframes m1_3s{0%{bottom:-3%;left:0;opacity:0.8;}100%{bottom:0%;left:2%;opacity:1;}}
+    	@-webkit-keyframes m1_3s{0%{bottom:-3%;left:0;opacity:0.8;}100%{bottom:0%;left:2%;opacity:1;}}
+
+    	/*main3*/
+    	.m3_1{position:absolute;z-index:4;width:100%;top:30%;opacity:0;}
+
+    	/*main4*/
+    	.m4_1{position:absolute;z-index:4;width:100%;left:0;opacity:0;}
+    	.m4_1s{animation-name: m4_1s;-webkit-animation-name: m4_1s;animation-fill-mode: forwards;-webkit-animation-fill-mode: forwards;}
+    	@keyframes m4_1s{0%{top:26%;opacity:0;}100%{top:36%;opacity:1;}}
+    	@-webkit-keyframes m4_1s{0%{top:26%;opacity:0;}100%{top:36%;opacity:1;}}
+
+    	/*main5*/
+    	.m5_1{position:absolute;z-index:4;width:100%;left:0;opacity:0;}
+    	.m5_1s{animation-name: m5_1s;-webkit-animation-name: m5_1s;animation-fill-mode: forwards;-webkit-animation-fill-mode: forwards;}
+    	@keyframes m5_1s{0%{top:40%;opacity:0;}100%{top:30%;opacity:1;}}
+    	@-webkit-keyframes m5_1s{0%{top:40%;opacity:0;}100%{top:30%;opacity:1;}}
+
+    	/*main8*/
+    	.m8_1{position:absolute;z-index:4;width:100%;top:20%;opacity:0;}
+    	
+    	#vote_btn{position:absolute;z-index:9;width:40%;left:30%;top:88%;font:1rem/1.5rem 微软雅黑;border:0;background:#25441b;color:#fff;border-radius:0.5rem;}
+    	.slider9 p{position:absolute;z-index:1;margin:0;padding:0;width:56%;left:22%;text-align:left;}
+    	.slider9 p img{width:12%;display:none;}
+    	.slider9 p span{float:right;display:block;width:28%;text-align:center;color:#f00;}
+    	.slider9 p.a1{top:24.5%;}
+    	.slider9 p.a2{top:33%;}
+    	.slider9 p.a3{top:41.5%;}
+    	.slider9 p.a4{top:50%;}
+    	.slider9 p.a5{top:58.5%;}
+    	.slider9 p.a6{top:67%;}
+    	.slider9 p.a7{top:75.5%;}
+    </style>
+</head>
+<body>
+	<div style="height:0;overflow:hidden;"><img src="img/head.jpg" width="400"/></div>
+    <!-- loading -->
+    <div id="loading">
+        <img src="img/loading.gif" alt="">
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slider1">
+            	<img src="img/1-2.png" class="ani m1_2" swiper-animate-effect="m1_2s" swiper-animate-duration="0.8s" swiper-animate-delay="0.7s"/>
+            	<img src="img/1-1.png" class="ani m1_1" swiper-animate-effect="m1_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/1-3.png" class="ani m1_3" swiper-animate-effect="m1_3s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider2">
+            	<img src="img/2-1.png" class="ani m2_1" swiper-animate-effect="m2_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider3">
+            	<img src="img/3-1.png" class="ani m3_1" swiper-animate-effect="m2_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider4">
+            	<img src="img/4-1.png" class="ani m4_1" swiper-animate-effect="m4_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider5">
+            	<img src="img/5-1.png" class="ani m5_1" swiper-animate-effect="m5_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider6">
+            	<img src="img/6-1.png" class="ani m2_1" swiper-animate-effect="m2_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider7">
+            	<img src="img/7-1.png" class="ani m4_1" swiper-animate-effect="m4_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider8">
+            	<img src="img/8-1.png" class="ani m8_1" swiper-animate-effect="m2_1s" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+              <img src="img/arrow.png" alt="" class="arrow">
+            </div>
+            <div class="swiper-slide slider9">
+          		<p class="a1"><span><?php echo $t[0];?></span><img src="img/ok.png"/></p>
+          		<p class="a2"><span><?php echo $t[1];?></span><img src="img/ok.png"/></p>
+          		<p class="a3"><span><?php echo $t[2];?></span><img src="img/ok.png"/></p>
+          		<p class="a4"><span><?php echo $t[3];?></span><img src="img/ok.png"/></p>
+          		<p class="a5"><span><?php echo $t[4];?></span><img src="img/ok.png"/></p>
+          		<p class="a6"><span><?php echo $t[5];?></span><img src="img/ok.png"/></p>
+          		<p class="a7"><span><?php echo $t[6];?></span><img src="img/ok.png"/></p>
+            	<button id="vote_btn">立即投票</button>
+            	<input type="hidden" name="vote_value" id="vote_value"/>
+            	<img src="img/2-2.png" class="ani m2_2" swiper-animate-effect="m2_2s" swiper-animate-duration="2s" swiper-animate-delay="0.1s"/>
+            </div>
+       </div>
+    </div>
+    
+   	<div id="bgm-btn" class="rotate">
+      <audio src="#" loop="loop" style="display:none; height:0 " autoplay="autoplay" id="music"></audio>
+    </div>
+
+    <!-- Jquery JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script>
+    $(window).load(function() {
+        $('#loading').hide();
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            direction: 'vertical',
+            onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+					    swiperAnimateCache(swiper); //隐藏动画元素 
+					    swiperAnimate(swiper); //初始化完成开始动画
+					  }, 
+					  onSlideChangeEnd: function(swiper){ 
+					    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+					  }
+        });
+    });
+		var playing = true;
+		$('#bgm-btn').click(function(){
+	    $(this).toggleClass("rotate");
+      if (playing == false) {
+          document.getElementById('music').play();
+          	playing = true;
+          } else {
+          document.getElementById('music').pause();
+          	playing = false;
+          }
+    });
+    //延迟加载音乐
+    $(document).ready(function(){
+    	$('audio').attr('src','audio/mp3.mp3');
+    });
+    </script>
+</body>
+</html>
