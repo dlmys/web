@@ -1,0 +1,37 @@
+@charset "utf-8";
+#about_us,#culture,#project{min-width: 1350px;}
+/*设置整体布局*/
+
+/*3.关于我们 开始*/
+#about_us .innerbox{padding:44px 0;position: relative;border-top:1px solid #CBCBCB;}
+#about_us .title{text-align:center;width:178px;background-color: #FFFFFF;position: absolute;left: 50%;margin-left:-89px;top: -36px;}
+#about_us .title .title_en{font:20px arial-black;color:#6B6B6B;}
+#about_us .title .title_ch{font:bold 18px 微软雅黑;color:#d43b33;}
+#about_us .text{font:12px "微软雅黑";color:#636363;text-align: center;line-height:30px;}
+#about_us .text .bold{font-weight: bold;}
+/*关于我们 结束*/
+
+/*4.企业文化 开始*/
+#culture{background-image: url(../images/index_02.png);background-size:cover;}
+#culture .innerbox{padding:68px 0;}
+#culture .culture_left{width: 390px;}
+#culture .culture_left .title{margin-bottom:30px;}
+#culture .culture_left .title_en{font:16px "microsoft yahei";}
+#culture .culture_left .title_ch{color:#d43b33;font:bold 18px "微软雅黑";}
+#culture .culture_left .text dt{font:bold 14px/28px "微软雅黑";}
+#culture .culture_left .text dd{font:bold 12px/28px "微软雅黑";color: #585858;border-bottom: 1px solid #BEBEBE;}
+#culture .culture_right{margin-left:50px;}
+/*企业文化 结束*/
+
+/*5.大事记 开始*/
+#project .innerbox{padding-top:52px;} 
+#project .innerbox li{background-color: #4B4B4B;color: #FFFFFF;font-size: 12px;}
+#project .title{text-align: center;font:18px "微软雅黑";}
+#project .title .title_ch{font-weight: bold;margin-bottom: 56px;}
+#project .title .text{font-size: 14px;color: #424242;margin-bottom:30px;}
+#project .items>li{width: 250px;height: 174px;}
+#project .items:after{content: "";display: block;height: 0;clear: both;}
+#project .items .text_up{margin:56px 0 22px 20px;}
+#project .items>li p{margin:0 20px;text-align: justify;}
+#project .continue{color:#FFFFFF;text-align: center;background-color:#D43B33;padding:16px 0;}
+/*大事记 结束*/

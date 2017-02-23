@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#course_center{min-width: 1350px;}
+/*设置整体布局*/
+
+/*3.课程中心 开始*/
+#course_center .innerbox .nav{font:12px "微软雅黑";}
+#course_center .title{text-align: center;margin:40px 0;}
+#course_center .title h3{color:#D53E38;font:bold 18px "微软雅黑";}
+#course_center .title p{color:#666666;font:12px "微软雅黑";}
+#course_center .tab{width:90px;height: 30px;font:14px/30px "微软雅黑";background-color:#D16D57;color: #FFFFFF;text-align: center;border-radius:6px 6px 0 0;}
+#course_center .text{border-top: 2px solid #D16D57;padding:30px 0;}
+#course_center .text>a{display:inline-block;width: 80px;height: 30px;background:#D43B33;color: #FFFFFF;font:12px/30px "微软雅黑";text-align: center;}
+#course_center .text p{font:12px "微软雅黑";text-align: justify;margin-bottom:50px;}
+#course_center .text p a{color:#DF5D58;margin-right:36px;}
+/*课程中心结束*/
+
+/*特殊部分*/
+#banner{margin-bottom:54px;}
+#footer{margin:0;}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+#team_intro,#team_list{min-width: 1350px;}
+/*设置整体布局*/
+
+.innerbox_1288{width: 1288px;margin: 0 auto;}
+/*设置版芯居中*/
+
+.title .title_en{font:18px "Helvetica Neue LT Pro";}
+.title .title_ch{font:bold 18px "微软雅黑";}
+
+/*3.专家团队 开始*/
+#team_intro .innerbox .title{text-align: center;margin-bottom:50px;}
+#team_intro .left{margin-right:26PX;}
+#team_intro .right{width:590px;height: 184px;background-color:#FAFAFA;padding:18px 38px;}
+#team_intro .right h3{font:bold 14px "微软雅黑";line-height:30px;border-bottom: 2px solid #D43B33;display: inline-block;}
+#team_intro .right p{font:12px "微软雅黑";margin-top: ;line-height:20px;color: #828587;}
+/*专家团队 结束*/
+
+/*4.专家风采 开始*/
+#team_list{background-color:#F7F7F7;margin-top: 38px;padding:56px 0;}
+#team_list .innerbox_1288 img{width:292px;}
+#team_list .innerbox_1288 .title{text-align:center;margin-bottom:30px;}
+#team_list .childer_float_left{margin-left:28px;}
+/*最好不要用.childer_float_left选择ul，以免影响后面需要用通用浮动样式的盒子*/
+#team_list .childer_float_left>li{width:292px;height: 210px;background-color:#FBFBFB;margin-right: 20px;}
+#team_list .childer_float_left>li.no_margin{margin: 0;}
+#team_list .childer_float_left>li a{border-bottom:2px solid #D43B33;display:block;text-align: center;font-size:12px;width: 146px;height: 30px;margin: 10px auto;line-height:30px;}
+#team_list .page{margin:0px auto;width:606px;margin-top:34px;}
+#team_list .page a{display:inline-block;width:276px;height:30px;line-height:30px;padding:0 10px;color: #FFFFFF;}
+#team_list .page a.pre{text-align:right;margin-right: 9px;background-color:#E5E5E5;}
+#team_list .page a.pre:hover{background-color:#D43B33;}
+#team_list .page a.next{text-align:left;background-color:#D43B33;}
+#team_list .page a.next:hover{background-color:#E5E5E5;}
+/*专家风采 结束*/
+
+/*特殊部分*/
+#footer{margin:0;}

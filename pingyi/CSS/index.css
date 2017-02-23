@@ -1,0 +1,72 @@
+@charset "utf-8";
+#about_us,#tab,#project,#content{min-width: 1350px;}
+/*设置整体布局*/
+
+/*3.关于我们 开始*/
+#about_us .innerbox{text-align: center;border-top: 1px solid #CBCBCB;position: relative;}
+#about_us .title{position: absolute;left: 50%;margin-left:-89px;top:-38px;background-color:#FFFFFF;width:178px;}
+#about_us .title .title_en{font:20px arial-black;color:#6B6B6B;}
+#about_us .title .title_ch{font:bold 18px 微软雅黑;color:#d43b33;}
+#about_us .text{font:12px "微软雅黑";color:#636363;margin-top: 40px;}
+#about_us .bold{font:bold 12px "微软雅黑";color:#626262;}
+#about_us a{font:12px/38px "微软雅黑";text-align:center;display: block;width:106px;height: 38px; margin:38px auto 0;background:url(../images/more_more_bg.png) no-repeat;}
+/*关于我们 结束*/
+
+/*4.滚动选项卡 开始*/
+#tab .innerbox{border-bottom: 1px solid #CBCBCB;margin-top: 50px;}
+#tab .innerbox .column{width: 360px;margin: 0 auto;position:relative}
+#tab .innerbox .column:after{content: "";display: block;height: 0;clear: both;}
+#tab .column .menu{border: 1px solid #CBCBCB;border-bottom:0;float: left;width:100px;margin:0 5px;text-align: center;cursor: pointer;background-color:#FFFFFF;}
+
+#tab .column li.current{color:#D43B33;line-height: 30PX;position: relative;top:1px;}
+#tab .column li.current .sub_menu{display: block;}
+#tab .column li.no_current{background-color:#626262;color: #FFFFFF;line-height: 30PX;}
+#tab .column li.no_current .sub_menu{height:188px;z-index: 999;background-color: #FFFFFF;}
+
+#tab .column .menu:hover .sub_menu{display: block;}
+#tab .column .menu:hover{color:#D43B33;background-color: #FFFFFF;}
+
+#tab .column .menu .sub_menu{display:none;text-align: left;position: absolute;top:60px;left:-326px;width: 1000px;font:12px "微软雅黑";color: #000000;}
+#tab .menu .sub_menu .sub_menu_left{margin-left:108px;margin-right: 48px;}
+#tab .sub_menu .sub_menu_right dt{font-weight:bold;margin-top:12px;}
+#tab .sub_menu .sub_menu_right li{margin-top:12px;}
+#tab .sub_menu .sub_menu_right li.bold{font-weight:bold;margin-top:12px;}
+#tab .menu .sub_menu .sub_menu_left,#tab .menu .sub_menu .sub_menu_right{float: left;}
+#tab .menu .events>li{float: left;margin:0 8px;color: #FFFFFF;}
+#tab #background_color{background-color:#4b4b4b;}
+#tab .menu .events .no_margin{margin:0 28px 0 0;}
+#tab .menu .events .no_margin img{height:188px;}
+#tab .menu .events img[src="../images/column_4.jpg"]{height:188px;}
+/*滚动选项卡 结束*/
+
+/*5.百业好项目 开始*/
+#project{background-image: url(../images/首页_09.jpg);height: 368px;margin-top: 26px;}
+#project .title .title_en{font:20px arial-black;color:#6B6B6B;text-align:center;}
+#project .title .title_ch{font:bold 18px 微软雅黑;color:#d43b33;text-align:center;}
+#project .innerbox{padding: 60px 0;}
+#project .innerbox ul{margin-top:48px;}
+#project .innerbox ul>li{float: left;margin:0 2px;}
+/*百业好项目 结束*/
+
+/*6.新闻中心，在线留言部分 开始*/
+#content .innerbox .news{float: left;margin-right:48px ;color:black;width: 450px;}
+#content .innerbox .message{width: 500px;float: left;}
+
+#content .title{margin:35px 0 16px 0;}
+#content .title .title_en{color: #000000;font:16px arial;}
+#content .title .title_ch{color:#d43b33;font:bold 16px "微软雅黑"}
+
+#content .news ul>li{border-bottom:1px dashed #cacaca;height: 36px;position: relative;font:12px/36px "微软雅黑";}
+#content .news ul>li .right{position: absolute;right: 0;color: #CBCBCB;}
+#content .news>a{margin-top:16px;display:inline-block;font:italic 18px/36px arial;border-bottom:1px solid #CBCBCB;}
+
+#content .message p input{width:238px;height: 36px;margin-right:16px;margin-bottom:16px;}
+#content .message p input[name=email]{margin-right:0;}
+#content .message p input[name=code]{width: 74px;}
+#content .message p img{vertical-align: middle;cursor: pointer;}
+
+#content .message textarea{width:494px;height: 188px;}
+#content .message .end{font:bold 12px "微软雅黑";color:#000000;margin-top: 30px;}
+#content .message .end span{bold font:12px arial;color:#d43b33;}
+#content .message input[type=submit]{background-color:#d43b33;width:128px;height: 30px;font:14px "微软雅黑";color:#FFFFFF;border: none;margin-left:102px;margin-right: 0;cursor: pointer;}
+/*新闻中心，在线留言部分 结束*/

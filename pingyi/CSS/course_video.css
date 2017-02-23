@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#course_video{min-width:1350px;}
+/*设置整体布局*/
+
+.innerbox_916{width:916px;margin: 0 auto;}
+/*设置版芯居中*/
+
+.title .title_en{font:18px "Helvetica Neue LT Pro";}
+.title .title_ch{font:bold 18px "微软雅黑";}
+
+/*3.课程视频 开始*/
+#course_video .innerbox_916 .title{}
+#course_video .title p{text-align: center;}
+#course_video .title p.red{margin:66px 0 32px;color:#D43B33;font-size: 24px;}
+#course_video .innerbox_916 video{width: 660px;height: 418px;background-color: #000000;}
+#course_video .tab{width:250px;height: 418px;background-color:#000000;margin-left:6px;}
+#course_video .tab a{color: #FFFFFF;font:12px "微软雅黑";display:inline-block;width:220px;}
+#course_video .tab a:hover{background-color:#EEEEEE;color: #000000;}
+/*课程视频 结束*/

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#course_center,#more_course{min-width: 1350px;}
+/*设置整体布局*/
+
+.title .title_en{font:18px "Helvetica Neue LT Pro";}
+.title .title_ch{font:bold 18px "微软雅黑";}
+
+/*3.精品课程 开始*/
+#course_center .innerbox img{width:402px;height: 188px;}
+#course_center .title{text-align: center;padding-bottom:50px;}
+#course_center ul li{background-color:#222222;width:402px;height:240px;border: 1px solid blue;margin: 0 0 30px 75px;}
+#course_center ul li.right{margin-left:46px;}
+#course_center ul li a{display: block;text-align: center;font:14px/52px "微软雅黑";color: #FFFFFF;}
+#course_center ul li:hover{background-color:#D43B33;}
+/*精品课程 结束*/
+
+/*4.更多课程 开始*/
+#more_course{background-color:#F7F7F7;padding:56px 0;}
+#more_course .innerbox .title{text-align: center;padding-bottom:56px;}
+
+#more_course ul li{width:242px;height: 172px;margin-right:10px;}
+#more_course ul li.no_margin{margin: 0;}
+#more_course ul li .text{display: block;}
+#more_course ul li a{font: bold 12px/42px "微软雅黑";text-align: center;}
+#more_course ul li img{width:242px;height: 130px;}
+#more_course .page{margin: 18px auto 0;width: 578px;}
+#more_course .page a{display: inline-block;width: 260px;height: 30px;line-height: 30px;padding:0 10px;color: #FFFFFF;}
+#more_course .page a.pre{background-color:#E5E5E5;text-align: right;margin-right:10px;}
+#more_course .page a.pre:hover{background-color:#D43B33;}
+#more_course .page a.next{background-color:#D43B33;text-align: left;}
+#more_course .page a.next:hover{background-color:#E5E5E5;}
+/*更多课程 结束*/
+
+/*特殊部分*/
+#footer{margin:0;}

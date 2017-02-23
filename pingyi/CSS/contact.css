@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#contact_info,#map{min-width: 1350px;}
+/*设置整体布局*/
+
+.title .title_en{font:18px "Helvetica Neue LT Pro";}
+.title .title_ch{font:bold 18px "微软雅黑";}
+
+/*3.联系方式 开始*/
+#contact_info .innerbox .title{text-align: center;margin-bottom: 50px;font-size: 18px;}
+#contact_info .title .title_ch{font-weight: bold;}
+#contact_info ul{width:860px;margin: 0 auto;text-align: center;padding:50px 0 72px;border-top:1px solid #E8E8E8;}
+#contact_info ul li{width: 284px;height: 198px;font:14px "微软雅黑";}
+/*联系方式 结束*/
+
+/*4.地图 开始*/
+#map img{width: 100%;}
+/*地图 结束*/
+
+#footer{margin:0;}
+/*设置特殊样式*/

@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+html body,h1,h3,p{margin: 0;padding: 0;font-family: "微软雅黑";}
+ul,dl,ol{list-style: none;margin: 0;padding: 0;}
+dl dd{margin: 0;padding: 0;}
+img{vertical-align: middle;}
+a:link,a:visited{color:#000000;text-decoration: none;}
+/*清除网页默认样式*/
+
+.childer_float_left>div,
+.childer_float_left>ul,
+.childer_float_left>dl,
+.childer_float_left>li,
+.childer_float_left>dt,
+.childer_float_left>dd,
+.childer_float_left>video,
+.childer_float_left>audio{float: left}
+.childer_float_left:after{content: "";display: block;height: 0;clear: both}
+
+.childer_float_right>div,
+.childer_float_right>ul,
+.childer_float_right>dl,
+.childer_float_right>li,
+.childer_float_right>dt,
+.childer_float_right>dd,
+.childer_float_right>video,
+.childer_float_right>audio{float: right;}
+.childer_float_right:after{content: "";display: block;height: 0;clear: both;}
+
+.float_left{float:left;}
+.float_right{float: right;}
+.clear{clear: both;}
+
+.clear_by_after
+.clear_by_overflow
+/*设置通用浮动属性*/
+
+
+/*设置特定类通用样式*/
+
+
+
+/*<!--设置页头页脚侧边栏部分公用样式 开始-->*/
+#header,#banner,#footer{min-width: 1350px;}
+/*设置整体布局*/
+
+.innerbox{width: 1000px;margin: 0 auto;}
+/*设置版芯居中*/
+
+/*1.页头导航部分 开始*/
+#header{background-color:#D43B33;}
+#header a{color:#FFFFFF;line-height: 74px;}
+#header .innerbox:after{content: "";display: block;height: 0;clear: both;}
+#header .logo{float: left;}
+#header .nav{float: right;}
+#header .nav>li{margin-right: 50px;position: relative;}
+#header .nav>li.no_margin{margin: 0;}
+#header .nav>li:hover .sub_nav{display: block;}
+#header .nav li:hover{background: url(../images/nav_hover1.png) no-repeat center bottom;}
+#header .nav .sub_nav{text-align:center;background-color:rgba(212,59,51,0.95);width: 160px;position: absolute;top:66px;left:-49px;display: none;}
+/*页头导航部分 结束*/
+
+/*2.广告位 开始*/
+#banner{background: url(../images/banner.jpg) repeat-x;height: 280px;margin-bottom:86px;}
+#banner .innerbox{text-align: center;color: #FFFFFF;padding-top: 60px;}
+#banner h1{font: bold 46px "微软雅黑";}
+#banner h3{font:20px arial;margin-top:38px;}
+/*广告位 结束*/
+
+/*6.页脚信息部分 开始*/
+#footer{background-image: url(../images/footer_bg.png);margin-top: 120PX;}
+#footer .innerbox{padding:56px 0 110px 0;}
+#footer .logo,#footer .info{float: left;color: #FFFFFF;}
+#footer .logo{margin-right: 92px;}
+#footer .info .margin_bottom{margin-bottom:24px;font: bold 16px "微软雅黑";}
+#footer .info p{font:12px/34px "微软雅黑";}
+#footer .info .margin_top{margin-top:38px;color: #979797;}
+/*页脚信息部分 结束*/
+
+/*7.右侧边栏开始*/
+#right_sidebar{width: 72px;height: 320px;background-color:#D43B33;position:fixed;right: 0;top: 50%;margin-top:-160px;}
+#right_sidebar>li:hover .sub_right_sidebar{display: block;}
+#right_sidebar>li .sub_right_sidebar{position: absolute;top: 161px;right: 72px;display: none;}
+/*右侧边栏 结束*/
+/*<!--设置页头页脚侧边栏部分公用样式 结束-->*/

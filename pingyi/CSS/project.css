@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+#content{min-width:1350px;}
+/*设置整体布局*/
+
+/*3.内容部分 开始*/
+#content .innerbox{position: relative;}
+#content .title{text-align: center;padding-bottom:56px;}
+#content .title .title_ch{font:bold 18px "微软雅黑";}
+#content .tab{width: 1000px;margin: 0 auto;background-color:#FAFAFA;}
+#content .tab li{width: 332px;text-align: center;font:16px/36px "微软雅黑";}
+#content .tab li.current{background:url(../images/tapbg.png) no-repeat;width: 334px;height: 42px;}
+#content .tab_details>li{width: 690px;height: 154px;border: 1px solid #D6D6D6;margin-top:26px;padding: 28px;}
+#content .tab_details>li>div>img{width: 200px;height: 125px;}
+#content .tab_details .text{width: 472px;font:12px "微软雅黑";margin-left:18px;color: #7F7F7F;}
+#content .tab_details .text h3{font:bold 16px "微软雅黑";color: #666666;}
+#content .tab_details .text .margin{margin: 23px 0;}
+#content .tab_details .text .last{position: relative;}
+#content .tab_details .text .last img{margin-left:30px;height:14.5px;}
+#content .tab_details .text .last span{position: absolute;right: 0;top:0;}
+#content .tab_details_right{position: absolute;right: 0;top: 225px;border: 1px solid #D6D6D6;width: 200px;height: 169px;padding:20px 0 20px 20px;font:12px "微软雅黑";color: #7F7F7F;overflow: hidden;}
+#content .page{margin-top:50px;}
+#content .page>li{width: 36px;height: 36px;background-color: #D8D8D8;text-align: center;margin-right:2px;}
+#content .page>li:hover{background-color:#B50900;}
+#content .page li.current{background-color:#B50900;}
+#content .page li a{font:12px/36px "微软雅黑";color: #FFFFFF;}
+#content .page li.pre{border-radius:6px 0 0 6px;}
+#content .page li.next{border-radius:0 6px 6px 0;}
+/*内容部分 结束*/

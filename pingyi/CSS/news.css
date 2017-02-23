@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#content{min-width: 1350px;}
+/*设置整体布局*/
+
+/*3.新闻动态 开始*/
+#content .title{text-align: center;padding-bottom: 50px;}
+#content .title .title_ch{font-weight: bold;}
+#content .tab{width:690px;margin: 0 auto;text-align: center;line-height: 35px;}
+#content .tab>li{width: 320px;height: 35px;background-color:#FAFAFA;}
+#content .tab .current{background:url(../images/tapbg.png) no-repeat;width:334px;height:42px;}
+
+#content .innerbox{margin-top: 50px;}
+#content .innerbox .news{width: 490px;margin: 0 auto;margin-right:20px;color: #78797B;}
+#content .innerbox .news>li{background-color:#F2F2F2;margin-top:20px;}
+#content .news .text h3{font:14px "微软雅黑";margin-top:36px;}
+#content .news .text p{font:12px "微软雅黑";margin-top:20px;text-align:justify;}
+#content .news .text{width:240px;margin:0 20px;}
+#content .news img{width: 200px;height: 200px;}
+#content .innerbox .no_margin{margin:0;}
+
+#content .page>li{width: 36px;height: 36px;background-color: #D8D8D8;text-align: center;margin-right:2px;}
+#content .page>li:hover{background-color:#B50900;}
+#content .page li.current{background-color:#B50900;}
+#content .page li a{font:12px/36px "微软雅黑";color: #FFFFFF;}
+#content .page li.pre{border-radius:6px 0 0 6px;}
+#content .page li.next{border-radius:0 6px 6px 0;}
+/*新闻动态 结束*/
